@@ -56,7 +56,6 @@ function App() {
 
     const randomAgent = handlePickedAgent();
 
-    console.log(randomAgent);
 
     // create an array of letters
 
@@ -68,7 +67,6 @@ function App() {
       return letter.toLowerCase();
     });
 
-    console.log(randomAgentLetters);
     // fill states
 
     setPickedAgent(randomAgent.randomAgent);
