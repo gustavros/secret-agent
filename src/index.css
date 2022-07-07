@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+
+  color: #fffbf5;
+}
+
+body {
+  background: linear-gradient(120deg, #BD3944, #FD4556);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 45s ease infinite;
+  -moz-animation: AnimationName 45s ease infinite;
+  animation: AnimationName 45s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 57% 0%;
+  }
+  50% {
+    background-position: 44% 100%;
+  }
+  100% {
+    background-position: 57% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 57% 0%;
+  }
+  50% {
+    background-position: 44% 100%;
+  }
+  100% {
+    background-position: 57% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 57% 0%;
+  }
+  50% {
+    background-position: 44% 100%;
+  }
+  100% {
+    background-position: 57% 0%;
+  }
+}
