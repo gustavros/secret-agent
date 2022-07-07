@@ -18,15 +18,10 @@ const GameOverScreen = ({ retry, score }) => {
       <img
         src="src/assets/images/maxresdefault.jpg"
         alt=""
-        className="max-w-md"
+        className="max-w-md w-4/6"
       />
 
-      <footer className=" absolute bottom-2 mx-auto ">
-        Feito com 🤍 por{" "}
-        <a href="https://www.github.com/gustavros" target="_blank">
-          Gustavo Santana
-        </a>{" "}
-      </footer>
+      <Footer />
     </div>
   );
 };

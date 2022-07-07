@@ -15,12 +15,7 @@ const StartScreen = ({ startGame }) => {
         COMEÇAR O JOGO
       </button>
 
-      <footer className=" absolute bottom-2 mx-auto ">
-        Feito com 🤍 por{" "}
-        <a href="https://www.github.com/gustavros" target="_blank">
-          Gustavo Santana
-        </a>{" "}
-      </footer>
+      <Footer />
     </div>
   );
 };
