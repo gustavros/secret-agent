@@ -56,7 +56,6 @@ function App() {
 
     const randomAgent = handlePickedAgent();
 
-
     // create an array of letters
 
     let randomAgentLetters = randomAgent.randomAgent.split("");
