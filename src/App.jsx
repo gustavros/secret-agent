@@ -27,7 +27,6 @@ function App() {
   const [agent] = useState(agentlist);
   const [pickedAgent, setPickedAgent] = useState("");
   const [letters, setLetters] = useState([]);
-
   const [guessedLetters, setGuessedLetters] = useState([]);
   const [wrongLetters, setWrongLetters] = useState([]);
   const [guesses, setGuesses] = useState(3);
@@ -138,7 +137,7 @@ function App() {
 
     setScore(0);
     setGuesses(3);
-    setStage(stages[0].name);
+    setStage(stages[1].name); // !important
   }
 
   return (
