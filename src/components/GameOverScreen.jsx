@@ -21,7 +21,12 @@ const GameOverScreen = ({ retry, score }) => {
         className="max-w-md"
       />
 
-      <Footer />
+      <footer className=" absolute bottom-2 mx-auto ">
+        Feito com 🤍 por{" "}
+        <a href="https://www.github.com/gustavros" target="_blank">
+          Gustavo Santana
+        </a>{" "}
+      </footer>
     </div>
   );
 };
